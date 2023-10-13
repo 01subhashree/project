@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+#root {
+  width: 100vw;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(12 75 135) 0%,
+    rgba(7, 91, 173, 1) 90%
+  );
+  min-height: 100vh;
+  background-size: 400% 400%;
+
+  animation: AnimationName 3s ease infinite;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+input::placeholder {
+  color: #ffffff5c;
+}
+h1 {
+  font-family: "Autour One, sans-serif";
+}

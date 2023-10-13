@@ -1,0 +1,120 @@
+.formContain_div1 {
+  width: 30%;
+}
+
+.formContain_div1 p {
+  font-size: 0.6rem;
+}
+.formGroup_div {
+  width: 45%;
+}
+.formDiv_text {
+  font-family: "Autour One", sans-serif;
+  margin: 0;
+}
+
+.input-button {
+  width: 30%;
+}
+
+.form_Link {
+  font-family: "Autour One", sans-serif;
+  position: absolute;
+  right: 8vw;
+  top: 5vh;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.form_Link:hover {
+  color: #c1c509;
+}
+.form_container {
+  width: 60%;
+  min-height: 70vh;
+  height: fit-content;
+  background-color: #e7e3e3dd;
+  border-top-left-radius: 10vw;
+  border-bottom-left-radius: 10vw;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 3rem;
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
+}
+.form-error {
+  margin-bottom: 0.5rem;
+  color: rgb(192, 71, 71);
+}
+
+@keyframes clipMe {
+  0%,
+  100% {
+    clip: rect(0px, 110px, 2px, 0px);
+  }
+  25% {
+    clip: rect(0px, 2px, 110px, 0px);
+  }
+  50% {
+    clip: rect(108px, 110px, 110px, 0px);
+  }
+  75% {
+    clip: rect(0px, 110px, 110px, 108px);
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-lg-width {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form_container {
+    border-radius: 7vw;
+    margin-top: 3rem;
+  }
+  .formGroup_div {
+    width: 100%;
+  }
+  .input-button {
+    margin-top: 1rem;
+    width: 60%;
+  }
+  .form_Link {
+    top: 3vh;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .form_container {
+    margin: 3rem 0;
+  }
+  .input-button {
+    width: 100%;
+  }
+  .form-error {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .form_Link {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container_div {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .formContain_div1 {
+    margin-top: 3rem;
+  }
+  .form_container {
+    padding: 1.5rem;
+    width: 80%;
+  }
+}
